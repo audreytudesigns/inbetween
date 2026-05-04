@@ -19,7 +19,7 @@ body.locked {
 }
 
 
-.bg{ position:fixed; top:-1vw; left:-1vw; width:100vw; z-index:-200;opacity:0.5; }
+.bg{ position:fixed; top:-1vw; left:-1vw; width:110vw; z-index:-200;opacity:0.5; }
 
 
 
@@ -43,21 +43,6 @@ body.locked {
 .btn-2 img{ position: absolute; width: 6vw; top: 12vw; right: 2vw;}
 .btn-3 img{ position: absolute; width: 6vw; top: 22vw; right: 2vw;}
 
-
-#illustrator {
-  display: none;
-  position: fixed;
-  top: 10vh;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 60vw;
-  z-index: 9999;
-  cursor: url("assets/click.png"), auto;
-}
-
-#illustrator.active {
-  display: block;
-}
 
 
 .info{
@@ -170,6 +155,29 @@ body.locked {
 .star-4{ position:absolute; left:-20vw; bottom:-15vw; width:40vw; transform: rotate(-45deg); }
 .star-5{ position:absolute; left:15vw; top:-15vw; width:30vw; transform: rotate(45deg); }
 
+
+
+@media (max-width: 70em) {
+.bg{ height:190vw; width:auto; z-index:-200;opacity:0.5; }
+
+.annotation-1{ width: 70vw; }
+.annotation-2{ width: 70vw; }
+#title{ top:35vh; left:15vw; width:60vw; }
+#fun{ top:-2vw; right:6vw; width:50vw; z-index:-3; pointer-events:auto; }
+#workspace{ width: 35vw; }
+.btn-1 img{ width: 15vw; top: 2vw;}
+.btn-2 img{ width: 15vw; top: 22vw;}
+.btn-3 img{ width: 15vw; top: 42vw;}
+.png-1,
+.png-2,
+.png-3,
+.png-4,
+.png-5,
+.png-6,
+.png-7,
+.png-8{ width: 20vw; }
+
+}
 
 
 
