@@ -1,0 +1,183 @@
+body{ overflow-x:hidden;  }
+body.locked {
+  overflow: hidden; /* prevents background scroll */
+}
+
+
+
+.manifesto{
+  position:absolute;
+  top:45vw;
+  left:30em;
+  font-size: 1.3em;
+}
+.process{
+  position:absolute;
+  top:45vw;
+  right:30em;
+  font-size: 1.3em;
+}
+
+
+.bg{ position:fixed; top:-1vw; left:-1vw; width:100vw; z-index:-200;opacity:0.5; }
+
+
+
+#fun{ position:fixed; top:-2vw; right:6vw; width:40vw; z-index:-3; pointer-events:auto; }
+#workspace{ position: absolute;
+    bottom: 0vw;
+    left: 1vw;
+    width: 25vw;
+    z-index: -2; opacity:0.5;}
+#process{ position:absolute; top:0vw; left:0vw; width:10.5vw; }
+
+#title{ position:absolute; top:22vh; right:45vw; width:35vw; z-index:-3}
+
+
+.intro-1 { position: absolute; width: 6vw; top: 2vw; right: 2vw; }
+.intro-2{ position: absolute; width: 6vw; top: 12vw; right: 2vw; }
+.intro-3{ position: absolute; width: 6vw; top: 22vw; right: 2vw; }
+
+
+.btn-1 img{ position: absolute; width: 6vw; top: 2vw; right: 2vw;}
+.btn-2 img{ position: absolute; width: 6vw; top: 12vw; right: 2vw;}
+.btn-3 img{ position: absolute; width: 6vw; top: 22vw; right: 2vw;}
+
+
+#illustrator {
+  display: none;
+  position: fixed;
+  top: 10vh;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60vw;
+  z-index: 9999;
+  cursor: url("assets/click.png"), auto;
+}
+
+#illustrator.active {
+  display: block;
+}
+
+
+.info{
+  display:none;
+}
+.info img{ position:relative; width:80vw; top:2vw; left:10vw; z-index:3000; pointer-events: none; }
+
+.info.active {
+  display:block;
+}
+
+
+
+
+.tenet-container { position: relative; }
+
+.png-1{ position: absolute; width: 11vw; top: 2vh; right: 45vw; }
+.png-2{ position: absolute; width: 11vw; top: 60vh; right: 55vw; }
+.png-3{ position: absolute; width: 11vw; top: 65vh; left: 15vw; }
+.png-4{ position: absolute; width: 11vw; top: 50vh; left: 10vw; }
+.png-5{ position: absolute; width: 11vw; top: 55vh; left: 7vw; }
+.png-6{ position: absolute; width: 11vw; top: 75vh; right: 40vw; }
+.png-7{ position: absolute; width: 11vw; top: 85vh; left: 25vw; }
+.png-8{ position: absolute; width: 11vw; top: 70vh; right: 45vw; }
+
+.hidden {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.5s ease;
+}
+
+
+.tenet-bg{ position:fixed; width:100vw;height:auto;top:0 }
+.tenet {
+  width: 70%;
+  margin: 300px auto;
+  position:relative;
+  left:0vw;
+  top:-5vw;
+}
+
+.tenet img {
+  width: 100%;
+  display: block;
+}
+
+/* reveal */
+.reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  filter: blur(6px);
+  transition: all 0.8s ease;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+  filter: blur(0);
+}
+
+/* counter */
+#counter {
+  position: fixed;
+  right: 10vw;
+  top: 45%;
+  transform: translateY(-50%);
+  font-size: 50px;
+  z-index:10;
+}
+
+
+
+
+
+
+.annotation-1{ position: absolute; width: 40vw; top: 0vw; left: 0vw;  }
+.annotation-2{ position: absolute; width: 40vw; bottom: 2vw; right: 15vw;}
+
+.playlist {
+  position: fixed;
+  bottom: -7vh;
+  right: 4vw;
+  z-index: 9999;
+}
+
+
+
+
+
+.playlist,
+.star-2,
+.star-3,
+.star-4,
+.star-5,
+.bg,
+.annotation-1,
+.annotation-2 {
+  pointer-events: none;
+}
+
+
+
+
+
+
+
+.star{ position:fixed; right:5vw; top:2vw; width:45em; }
+.star-2{ position:absolute; right:2vw; top:2vw; width:20em }
+.star-3{ position:absolute; right:-2vw; top:0vw; width:7vw }
+.star-4{ position:absolute; left:-20vw; bottom:-15vw; width:40vw; transform: rotate(-45deg); }
+.star-5{ position:absolute; left:15vw; top:-15vw; width:30vw; transform: rotate(45deg); }
+
+
+
+
+
+
+
+
+
+
+
+
