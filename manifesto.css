@@ -20,18 +20,18 @@ body.locked {
 
 
 .bg{ position:fixed; top:-1vw; left:-1vw; width:110vw; z-index:-200;opacity:0.5; }
+.bottom-bar { position:fixed; bottom:2vw; left:35vw;width:35% }
 
 
-
-#fun{ position:fixed; top:-2vw; right:6vw; width:40vw; z-index:-3; pointer-events:auto; }
+#fun{ position:fixed; top:0vw; right:10vw; width:45vw; z-index:-3; pointer-events:auto; }
 #workspace{ position: absolute;
     bottom: 0vw;
     left: 1vw;
     width: 25vw;
-    z-index: -2; opacity:0.5;}
+    z-index: -4; opacity:0.5;}
 #process{ position:absolute; top:0vw; left:0vw; width:10.5vw; }
 
-#title{ position:absolute; top:22vh; right:45vw; width:35vw; z-index:-3}
+#title{ position:absolute; top:30vh; right:45vw; width:35vw; z-index:-2}
 
 
 .intro-1 { position: absolute; width: 6vw; top: 2vw; right: 2vw; }
@@ -59,8 +59,8 @@ body.locked {
 
 .tenet-container { position: relative; }
 
-.png-1{ position: absolute; width: 11vw; top: 2vh; right: 45vw; }
-.png-2{ position: absolute; width: 11vw; top: 60vh; right: 55vw; }
+.png-1{ position: absolute; width: 11vw; top: 2vh; right: 55vw; }
+.png-2{ position: absolute; width: 11vw; top: 8vh; left: 25vw; }
 .png-3{ position: absolute; width: 11vw; top: 65vh; left: 15vw; }
 .png-4{ position: absolute; width: 11vw; top: 50vh; left: 10vw; }
 .png-5{ position: absolute; width: 11vw; top: 55vh; left: 7vw; }
